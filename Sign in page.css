@@ -1,0 +1,58 @@
+.mydiv1
+  { 
+    
+    width: 300px;
+    padding: 8%;
+    position: absolute;
+    text-align: center;
+    background-color: #0B0C16;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  body
+  {
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    font-family: sans-serif;
+  }
+  
+  #btn:hover
+  {
+    background-color: grey;
+    color: white;
+    transition-duration: 0.4s;
+  }
+  
+  .mydiv1 input[type="text"],.mydiv1 input[type="password"]
+  {
+    background: none;
+    border: 2px solid #60C2EB;
+    text-align: center;
+    margin: 6%;
+    width: 55%;
+    padding: 6% 15%;
+    border-radius: 24px;
+    font-size: 120%;
+    color: #FFFFFF;
+  }
+  
+  #btn
+  {
+    background: #5DF2EE;
+    padding: 6% 15%;
+    width: 60%;
+    font-size: 120%;
+    border-radius: 24px;
+    border: 2px #5DF2EE00;
+  }
+  .mydiv1 h1
+  {
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #DEE1FF;
+  }

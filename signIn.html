@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Helix - Sign In</title>
+  <link rel="stylesheet" href="Sign in page.css">
+
+</head>
+
+<body>
+  
+  <div class = "mydiv1">
+    <h1>Sign In</h1>
+    <br>
+       
+    <form action="additional.php" method="POST">
+       <input type="text" name="name" placeholder="Username" autocomplete="off">
+       
+    <br>
+       <input type="password" name="pwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="Password"><br><br>
+       <input type="submit" name="submit" value="Sign In" id="btn"><br><br><br>
+       <font color="white">Or</font><br><br><br>
+       <a style="text-decoration: none" href="signUp.html">SIGN UP</a>
+
+    </form>
+
+  </div>
+  
+</body>
+</html>
